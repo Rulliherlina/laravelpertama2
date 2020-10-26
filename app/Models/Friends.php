@@ -9,4 +9,5 @@ class Friends extends Model
 {
     use HasFactory;
     
+    protected $guarded = ['nama'];
 }
